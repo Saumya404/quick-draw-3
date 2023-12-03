@@ -1,0 +1,63 @@
+h1{
+    font-size: 55px !important;
+    position: fixed;
+    color: #ffffff;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    text-shadow: 7px 5px 6px rgb(16, 255, 123);
+    
+}
+.btn-warning:hover{
+    background-color: rgb(255, 10, 10);
+}
+
+#label{
+    color: rgb(0, 0, 0);
+    
+}
+
+p{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#show_sketch{
+    float:right;
+}
+
+#sketch_to_be_draw{
+    font-size: 30px;
+    color:gold;
+    
+}
+#score{
+    float:left;
+    color:#ffffff;
+    font-size: 35px;
+    text-shadow: 7px 5px 6px rgb(0, 0, 0);
+}
+
+#time{
+    float:right;
+    color:#ffffff;
+    font-size:35px;
+    text-shadow: 7px 5px 6px rgb(0, 0, 0);
+}
+canvas 
+  {
+    border:5px solid #1c1c1c;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px rgb(255, 89, 0);
+    box-shadow: 1px 1px 38px #32a66c;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px 016#ff6;}
+  to {box-shadow: 1px 1px 38px #0acc6b;}
+
+}
